@@ -1,0 +1,37 @@
+.admin-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .admin-navbar {
+    width: 200px;
+    background-color: #2c3e50;
+    padding: 20px;
+  }
+  
+  .admin-navbar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .admin-navbar li {
+    margin: 20px 0;
+  }
+  
+  .admin-link {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+  
+  .active-link {
+    font-weight: bold;
+    color: #3498db;
+  }
+  
+  .admin-content {
+    flex-grow: 1;
+    /* padding: 20px; */
+    background-color: #ecf0f1;
+  }
+  
